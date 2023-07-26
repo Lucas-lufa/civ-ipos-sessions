@@ -4,5 +4,5 @@
 # import greeter as g
 # g.greet()
 
-from greeter import greet
+from greeter_lucas import greet
 greet()
