@@ -21,3 +21,27 @@ In-class revision
  If Python uses pass-by-reference, why does not reassigning a variable inside a function change the original variable
  outside the function? How is this related to the mutability of Python objects?
  """
+
+def modify_list(lst):
+   lst.append("new")
+   lst = ["completely", "new"]
+
+items = ["original"]
+modify_list(items)
+print(items)
+
+def modify(n, list_):
+   n = 2
+   list_.append(3)
+   print(f"n modify{id(n)}")
+   print(f" list modify{id(list_)}")
+
+
+n = 1
+list_ = [1, 2]
+print(f"n {id(n)}")
+print(f" list {id(list_)}")
+modify(n, list_)
+
+print(n) # Outputs: 1
+print(list_) # Outputs: [1, 2, 3]
