@@ -1,10 +1,10 @@
 def greet():
-    print("Hello, World!")
+    return "Hello, World!"
 
 
 def main():
     a = 42
-    greet()
+    print(greet)
 
 
 if __name__ == "__main__":

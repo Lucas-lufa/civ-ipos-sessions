@@ -10,7 +10,7 @@ def greet():
 # Put in tests/ folder as test_greeter.py
 # remember to mark directory tests/ as:
 # Test Sources within pycharm
-from greeter import greet
+from week2.greeter_lucas import greet
 import unittest
 
 
