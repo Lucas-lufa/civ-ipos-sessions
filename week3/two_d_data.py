@@ -2,7 +2,7 @@ def lucas(row:int, col:int, values=None):
     """ """
     two_d = [] * row
     for _ in two_d:
-        two_d[_} = [] * col
+        two_d[_] = [] * col
 
 # Exercise 3:
 # Dynamically build a 2D data structure and initialize with values
