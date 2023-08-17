@@ -1,7 +1,5 @@
 """write a simple calculator so has add subtract multiply divide"""
 
-import unittest
-
 class Calculator:
 
     # rases Keyword
