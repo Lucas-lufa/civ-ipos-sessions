@@ -19,6 +19,6 @@ with open("my_new_file", "r", encoding='utf-8') as f:
     for _ in range(5):
         print(f.read(1)) # prints the first 5 characters
     print(f.tell()) # tells us where the cursor is
-    print(f.read(1)) # prints the emoji
+    print(f.read(1)) # prints the emoji, by reading the index one over.
     print(f.tell()) # tells us where the cursor is - WHAT? Notice where the cursor is, it jumped 4 bytes!  # noqa: E501
     # if you have removed the encoding, see what happens here and continue reading - notice no emoji just 4 random characters # noqa: E501
