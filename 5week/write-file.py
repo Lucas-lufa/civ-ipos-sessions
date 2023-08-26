@@ -21,3 +21,7 @@ with open("my_new_file", "r+", encoding='utf-8') as f:
     print(f.read()) # prints the content
     f.write("Hello😊😊\nWorld")
     print(f.read()) # prints the content
+
+with open("fictional_image","br" ) as image:
+    image.seek(((960 * 540)* 3 * 3)+ 9)
+    pixel = image.read(1)
