@@ -5,3 +5,5 @@ Inheritance is where you take a class and make a new class out of it so it can b
  Polymorphism (poly many) (morph forms). To change from one to another, casting from one type to another is the most common form of this but there is also method overriding. 
  
  Method overriding is where the method identifier is inherited into a new class but the method's implementation is changed. This allows us to make one function that can act on all the class instances but produce something different.
+
+ 
