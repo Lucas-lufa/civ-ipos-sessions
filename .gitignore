@@ -162,5 +162,4 @@ cython_debug/
 
 # microsoft
 *.pptx
-*.docx
 *.pptx#
